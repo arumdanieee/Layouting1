@@ -317,12 +317,12 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/it.jpg",
-                    height: 300.0,
-                    width: 300.0,
+                    height: 200.0,
+                    width: 400.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
-                  Text("Itzy", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text("ITZY - 'NOT SHY' M/V", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -334,12 +334,12 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/sm.jpg",
-                    height: 300.0,
-                    width: 300.0,
+                    height: 200.0,
+                    width: 400.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
-                  Text("Somi", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text("SOMI - 'BIRTHDAY' M/V", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -351,12 +351,12 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/ae.jpg",
-                    height: 300.0,
-                    width: 300.0,
+                    height: 200.0,
+                    width: 400.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
-                  Text("Aespa", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text("AESPA - 'NEXT LEVEL' M/V", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -368,12 +368,12 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/ive.jpg",
-                    height: 300.0,
-                    width: 300.0,
+                    height: 200.0,
+                    width: 400.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
-                  Text("IVE", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text("IVE - 'ELEVEN' M/V", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -385,12 +385,12 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/we.jpg",
-                    height: 300.0,
-                    width: 300.0,
+                    height: 200.0,
+                    width: 400.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
-                  Text("Weekly", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text("WEEKLY - 'AFTER SCHOOL' M/V", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -644,6 +644,66 @@ class Info extends StatelessWidget {
                   //Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 1.0),
                   Text("Karina Aespa", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              color: Colors.blue,
+              child: Column(
+                children: <Widget>[
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  Image.asset(
+                    "assets/images/cha eun woo astro.png",
+                    height: 89.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Cha Eun Woo Astro", style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              color: Colors.blue,
+              child: Column(
+                children: <Widget>[
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  Image.asset(
+                    "assets/images/ka.jpg",
+                    height: 89.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Kai EXO", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              color: Colors.blue,
+              child: Column(
+                children: <Widget>[
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  Image.asset(
+                    "assets/images/haechan.jpeg",
+                    height: 89.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Haechan NCT", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
