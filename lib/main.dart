@@ -58,8 +58,8 @@ class MyHomePage extends StatelessWidget {
                     labelColor: Colors.black87,
                     unselectedLabelColor: Colors.grey,
                     tabs: [
-                      new Tab(icon: new Icon(Icons.audiotrack), text: "Song"),
-                      new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
+                      new Tab(icon: new Icon(Icons.restaurant), text: "Food"),
+                      new Tab(icon: new Icon(Icons.collections), text: "Drink"),
                       new Tab(icon: new Icon(Icons.info), text: "Info"),
                     ],
                   ),
@@ -70,10 +70,14 @@ class MyHomePage extends StatelessWidget {
           body: new TabBarView(
             children: [
               Center(
-                child: Text(
-                  "Song",
-                  style: TextStyle(fontSize: 20),
+                child: Image(
+                  image: AssetImage('assets/images/bur.jpg'),
+                  fit: BoxFit.cover,
                 ),
+                //Text(
+                //"Song",
+                //style: TextStyle(fontSize: 20),
+                //),
               ),
               Center(
                 child: Text(
