@@ -24,11 +24,6 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  final List food = [
-    "Burger",
-    "Pizza",
-    "Pasta",
-  ];
   //final String title;
 
   //const MyHomePage({required this.title});
@@ -74,153 +69,160 @@ class MyHomePage extends StatelessWidget {
               ),
             ];
           },
-          body: //new Container(
-              //   child: TabBarView(
-              //     children: [
-              //       Container(
-              //         padding: EdgeInsets.all(10),
-              //         child: Row(
-              //           children: [
-              //             Container(
-              //               width: 100.0,
-              //               height: 100.0,
-              //               color: Colors.blue,
-              //               child: new Icon(Icons.home),
-              //             ),
-              //             Expanded(
-              //               child: Container(
-              //                 padding: EdgeInsets.all(15.0),
-              //                 height: 100.0,
-              //                 color: Colors.black,
-              //                 child: Column(
-              //                   crossAxisAlignment: CrossAxisAlignment.start,
-              //                   children: [
-              //                     Text("Contoh"),
-              //                     Text("Hai"),
-              //                   ],
-              //                 ),
-              //               ),
-              //             )
-              //           ],
-              //         ),
-              //       ),
-              //     ],
-              //   ),
-              // ),
-
-              new TabBarView(
-            children: [
-              Container(
-                padding: EdgeInsets.all(10),
-                child: Row(
-                  children: [
-                    Container(
-                        width: 100.0,
-                        height: 100.0,
-                        color: Colors.blue,
-                        child: Image(
-                          image: AssetImage('assets/images/bur.jpg'),
-                          width: 50,
-                          height: 50,
-                          fit: BoxFit.cover,
-                        )),
-                    Expanded(
-                      child: Container(
-                        padding: EdgeInsets.all(15.0),
-                        height: 100.0,
-                        //color: Colors.black,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text("Burger"),
-                            Text("This is beef burger"),
-                          ],
-                        ),
-                      ),
-                    )
-                  ],
-                ),
-              ),
-              //2
-              Container(
-                padding: EdgeInsets.all(10),
-                child: Row(
-                  children: [
-                    Container(
-                      width: 100.0,
-                      height: 100.0,
-                      color: Colors.blue,
-                      child: Image(
-                        image: AssetImage('assets/images/bur.jpg'),
-                        width: 50,
-                        height: 50,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        padding: EdgeInsets.all(15.0),
-                        height: 100.0,
-                        color: Colors.black,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text("Contoh"),
-                            Text("Hai"),
-                          ],
-                        ),
-                      ),
-                    )
-                  ],
-                ),
-              ),
-              //3
-              Container(
-                padding: EdgeInsets.all(10),
-                child: Row(
-                  children: [
-                    Container(
-                      width: 100.0,
-                      height: 100.0,
-                      color: Colors.blue,
-                      child: Image(
-                        image: AssetImage('assets/images/bur.jpg'),
-                        width: 50,
-                        height: 50,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        padding: EdgeInsets.all(15.0),
-                        height: 100.0,
-                        color: Colors.black,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text("Contoh"),
-                            Text("Hai"),
-                          ],
-                        ),
-                      ),
-                    )
-                  ],
-                ),
-              ),
-              // Center(
-              //   child: Text(
-              //     "Gallery",
-              //     style: TextStyle(fontSize: 20),
-              //   ),
-              // ),
-              // Center(
-              //   child: Text(
-              //     "Info",
-              //     style: TextStyle(fontSize: 20),
-              //   ),
-              // ),
+          body: TabBarView(
+            children: <Widget>[
+              Song(),
+              Gallery(),
+              Info(),
             ],
           ),
+          //new Container(
+          //   child: TabBarView(
+          //     children: [
+          //       Container(
+          //         padding: EdgeInsets.all(10),
+          //         child: Row(
+          //           children: [
+          //             Container(
+          //               width: 100.0,
+          //               height: 100.0,
+          //               color: Colors.blue,
+          //               child: new Icon(Icons.home),
+          //             ),
+          //             Expanded(
+          //               child: Container(
+          //                 padding: EdgeInsets.all(15.0),
+          //                 height: 100.0,
+          //                 color: Colors.black,
+          //                 child: Column(
+          //                   crossAxisAlignment: CrossAxisAlignment.start,
+          //                   children: [
+          //                     Text("Contoh"),
+          //                     Text("Hai"),
+          //                   ],
+          //                 ),
+          //               ),
+          //             )
+          //           ],
+          //         ),
+          //       ),
+          //     ],
+          //   ),
+          // ),
+
+          //     new TabBarView(
+          //   children: [
+          //     Container(
+          //       padding: EdgeInsets.all(10),
+          //       child: Row(
+          //         children: [
+          //           Container(
+          //               width: 100.0,
+          //               height: 100.0,
+          //               color: Colors.blue,
+          //               child: Image(
+          //                 image: AssetImage('assets/images/bur.jpg'),
+          //                 width: 50,
+          //                 height: 50,
+          //                 fit: BoxFit.cover,
+          //               )),
+          //           Expanded(
+          //             child: Container(
+          //               padding: EdgeInsets.all(15.0),
+          //               height: 100.0,
+          //               //color: Colors.black,
+          //               child: Column(
+          //                 crossAxisAlignment: CrossAxisAlignment.start,
+          //                 children: [
+          //                   Text("Burger"),
+          //                   Text("This is beef burger"),
+          //                 ],
+          //               ),
+          //             ),
+          //           )
+          //         ],
+          //       ),
+          //     ),
+          //     //2
+          //     Container(
+          //       padding: EdgeInsets.all(10),
+          //       child: Row(
+          //         children: [
+          //           Container(
+          //             width: 100.0,
+          //             height: 100.0,
+          //             color: Colors.blue,
+          //             child: Image(
+          //               image: AssetImage('assets/images/bur.jpg'),
+          //               width: 50,
+          //               height: 50,
+          //               fit: BoxFit.cover,
+          //             ),
+          //           ),
+          //           Expanded(
+          //             child: Container(
+          //               padding: EdgeInsets.all(15.0),
+          //               height: 100.0,
+          //               color: Colors.black,
+          //               child: Column(
+          //                 crossAxisAlignment: CrossAxisAlignment.start,
+          //                 children: [
+          //                   Text("Contoh"),
+          //                   Text("Hai"),
+          //                 ],
+          //               ),
+          //             ),
+          //           )
+          //         ],
+          //       ),
+          //     ),
+          //     //3
+          //     Container(
+          //       padding: EdgeInsets.all(10),
+          //       child: Row(
+          //         children: [
+          //           Container(
+          //             width: 100.0,
+          //             height: 100.0,
+          //             color: Colors.blue,
+          //             child: Image(
+          //               image: AssetImage('assets/images/bur.jpg'),
+          //               width: 50.0,
+          //               height: 50.0,
+          //               fit: BoxFit.cover,
+          //             ),
+          //           ),
+          //           Expanded(
+          //             child: Container(
+          //               padding: EdgeInsets.all(15.0),
+          //               height: 100.0,
+          //               color: Colors.black,
+          //               child: Column(
+          //                 crossAxisAlignment: CrossAxisAlignment.start,
+          //                 children: [
+          //                   Text("Contoh"),
+          //                   Text("Hai"),
+          //                 ],
+          //               ),
+          //             ),
+          //           )
+          //         ],
+          //       ),
+          //     ),
+          //     // Center(
+          //     //   child: Text(
+          //     //     "Gallery",
+          //     //     style: TextStyle(fontSize: 20),
+          //     //   ),
+          //     // ),
+          //     // Center(
+          //     //   child: Text(
+          //     //     "Info",
+          //     //     style: TextStyle(fontSize: 20),
+          //     //   ),
+          //     // ),
+          //   ],
+          // ),
         ),
       ),
       //appBar: AppBar(
@@ -232,6 +234,105 @@ class MyHomePage extends StatelessWidget {
     //'Hello, World!',
     //),
     //),
+  }
+}
+
+class Song extends StatelessWidget {
+  final List song = [
+    "Here's Your Prefect.mp3",
+    "Doule Take.mp3",
+    "Love Is Gone.mp3",
+    "Roman Picisan.mp3",
+    "Pangeran Cinta.mp3",
+    "Satu Hati.mp3",
+    "Kangen.mp3",
+    "Elang.mp3",
+    "Pupus",
+    "Separuh Nafas.mp3",
+    "Aku Milikmu.mp3",
+    "Cukup Siti Nurbaya"
+  ];
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ListView.builder(
+        itemBuilder: (context, index) {
+          return Card(
+              child: ListTile(
+            title: Text(song[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            subtitle: Text('Music from ' + song[index]),
+            leading: Icon(Icons.audiotrack),
+          ));
+        },
+        itemCount: song.length,
+      ),
+    );
+  }
+}
+
+class Gallery extends StatelessWidget {
+  final List gallery = [
+    "Here's Your Prefect.mp3",
+    "Doule Take.mp3",
+    "Love Is Gone.mp3",
+    "Roman Picisan.mp3",
+    "Pangeran Cinta.mp3",
+    "Satu Hati.mp3",
+    "Kangen.mp3",
+    "Elang.mp3",
+    "Pupus",
+    "Separuh Nafas.mp3",
+    "Aku Milikmu.mp3",
+    "Cukup Siti Nurbaya"
+  ];
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ListView.builder(
+        itemBuilder: (context, index) {
+          return Card(
+              child: ListTile(
+            title: Text(gallery[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            subtitle: Text('Music from ' + gallery[index]),
+            leading: Icon(Icons.audiotrack),
+          ));
+        },
+        itemCount: gallery.length,
+      ),
+    );
+  }
+}
+
+class Info extends StatelessWidget {
+  final List info = [
+    "Here's Your Prefect.mp3",
+    "Doule Take.mp3",
+    "Love Is Gone.mp3",
+    "Roman Picisan.mp3",
+    "Pangeran Cinta.mp3",
+    "Satu Hati.mp3",
+    "Kangen.mp3",
+    "Elang.mp3",
+    "Pupus",
+    "Separuh Nafas.mp3",
+    "Aku Milikmu.mp3",
+    "Cukup Siti Nurbaya"
+  ];
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ListView.builder(
+        itemBuilder: (context, index) {
+          return Card(
+              child: ListTile(
+            title: Text(info[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            subtitle: Text('Music from ' + info[index]),
+            leading: Icon(Icons.audiotrack),
+          ));
+        },
+        itemCount: info.length,
+      ),
+    );
   }
 }
 
