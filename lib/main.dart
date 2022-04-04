@@ -301,11 +301,11 @@ class Gallery extends StatelessWidget {
                   Image.asset(
                     "assets/images/bp.jpg",
                     height: 200.0,
-                    width: 200.0,
+                    width: 400.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
-                  Text("Blackpink", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text("BLACKPINK - 'AS IF IT'S YOUR' M/V", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
