@@ -60,7 +60,7 @@ class MyHomePage extends StatelessWidget {
                     tabs: [
                       new Tab(icon: new Icon(Icons.audiotrack), text: "Song"),
                       new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
-                      //new Tab(icon: new Icon(Icons.collections), text: ""),
+                      new Tab(icon: new Icon(Icons.info), text: "Info"),
                     ],
                   ),
                 ),
