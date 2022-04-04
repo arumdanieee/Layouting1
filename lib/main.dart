@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -22,6 +24,11 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
+  final List food = [
+    "Burger",
+    "Pizza",
+    "Pasta",
+  ];
   //final String title;
 
   //const MyHomePage({required this.title});
@@ -67,37 +74,44 @@ class MyHomePage extends StatelessWidget {
               ),
             ];
           },
-          body: new TabBarView(
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Image(
-                    image: AssetImage('assets/images/bur.jpg'),
-                    width: 100,
-                    height: 100,
-                    fit: BoxFit.cover,
-                  ),
-                ],
-              ),
-              //Text(
-              //"Song",
-              //style: TextStyle(fontSize: 20),
-              //),
-              Center(
-                child: Text(
-                  "Gallery",
-                  style: TextStyle(fontSize: 20),
+          body: ListView.builder(
+            itemBuilder: (context, index) {
+              return Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Text(food[index], style: TextStyle(fontSize: 30)),
                 ),
-              ),
-              Center(
-                child: Text(
-                  "Info",
-                  style: TextStyle(fontSize: 20),
-                ),
-              ),
-            ],
+              );
+            },
+            itemCount: food.length,
           ),
+
+          // new TabBarView(
+          //   children: [
+          //     Center(
+          //       child: Image(
+          //         image: AssetImage('assets/images/bur.jpg'),
+          //         fit: BoxFit.cover,
+          //       ),
+          //       //Text(
+          //       //"Song",
+          //       //style: TextStyle(fontSize: 20),
+          //       //),
+          //     ),
+          //     Center(
+          //       child: Text(
+          //         "Gallery",
+          //         style: TextStyle(fontSize: 20),
+          //       ),
+          //     ),
+          //     Center(
+          //       child: Text(
+          //         "Info",
+          //         style: TextStyle(fontSize: 20),
+          //       ),
+          //     ),
+          //   ],
+          // ),
         ),
       ),
       //appBar: AppBar(
