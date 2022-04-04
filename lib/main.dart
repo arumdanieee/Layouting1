@@ -516,7 +516,7 @@ class Info extends StatelessWidget {
                   //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
                   Image.asset(
                     "assets/images/iu.jpeg",
-                    height: 99.0,
+                    height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
