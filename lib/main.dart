@@ -74,16 +74,38 @@ class MyHomePage extends StatelessWidget {
               ),
             ];
           },
-          body: ListView.builder(
-            itemBuilder: (context, index) {
-              return Card(
-                child: Padding(
-                  padding: const EdgeInsets.all(15.0),
-                  child: Text(food[index], style: TextStyle(fontSize: 30)),
+          body: new Container(
+            child: ListView(
+              children: [
+                Container(
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 100.0,
+                        height: 100.0,
+                        color: Colors.blue,
+                        child: new Icon(Icons.home),
+                      ),
+                      Expanded(
+                        child: Container(
+                          padding: EdgeInsets.all(15.0),
+                          height: 100.0,
+                          color: Colors.black,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("Contoh"),
+                              Text("Hai"),
+                            ],
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
                 ),
-              );
-            },
-            itemCount: food.length,
+              ],
+            ),
           ),
 
           // new TabBarView(
