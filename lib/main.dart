@@ -285,8 +285,8 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/bp.jpg",
-                    height: 100.0,
-                    width: 100.0,
+                    height: 300.0,
+                    width: 300.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
@@ -297,13 +297,13 @@ class Gallery extends StatelessWidget {
           ),
           Container(
             child: Card(
-              elevation: 10.0,
+              //elevation: 10.0,
               child: Column(
                 children: <Widget>[
                   Image.asset(
                     "assets/images/it.jpg",
-                    height: 100.0,
-                    width: 100.0,
+                    height: 300.0,
+                    width: 300.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
@@ -314,13 +314,13 @@ class Gallery extends StatelessWidget {
           ),
           Container(
             child: Card(
-              elevation: 10.0,
+              //elevation: 10.0,
               child: Column(
                 children: <Widget>[
                   Image.asset(
                     "assets/images/sm.jpg",
-                    height: 100.0,
-                    width: 100.0,
+                    height: 300.0,
+                    width: 300.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
@@ -331,13 +331,13 @@ class Gallery extends StatelessWidget {
           ),
           Container(
             child: Card(
-              elevation: 10.0,
+              //elevation: 10.0,
               child: Column(
                 children: <Widget>[
                   Image.asset(
                     "assets/images/ae.jpg",
-                    height: 100.0,
-                    width: 100.0,
+                    height: 300.0,
+                    width: 300.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
@@ -348,13 +348,13 @@ class Gallery extends StatelessWidget {
           ),
           Container(
             child: Card(
-              elevation: 10.0,
+              //elevation: 10.0,
               child: Column(
                 children: <Widget>[
                   Image.asset(
                     "assets/images/ive.jpg",
-                    height: 100.0,
-                    width: 100.0,
+                    height: 300.0,
+                    width: 300.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
@@ -365,13 +365,13 @@ class Gallery extends StatelessWidget {
           ),
           Container(
             child: Card(
-              elevation: 10.0,
+              //elevation: 10.0,
               child: Column(
                 children: <Widget>[
                   Image.asset(
                     "assets/images/we.jpg",
-                    height: 100.0,
-                    width: 100.0,
+                    height: 300.0,
+                    width: 300.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
@@ -541,7 +541,7 @@ class Info extends StatelessWidget {
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
                   Image.asset(
-                    "assets/images/iu.jpeg",
+                    "assets/images/yer.jpg",
                     height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
@@ -561,14 +561,14 @@ class Info extends StatelessWidget {
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
                   Image.asset(
-                    "assets/images/iu.jpeg",
+                    "assets/images/jen.jpeg",
                     height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
                   //Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 1.0),
-                  Text("Jennie Blackpink", style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
+                  Text("Jennie Blackpink", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -581,7 +581,7 @@ class Info extends StatelessWidget {
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
                   Image.asset(
-                    "assets/images/iu.jpeg",
+                    "assets/images/dit.jpg",
                     height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
@@ -589,6 +589,46 @@ class Info extends StatelessWidget {
                   //Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 1.0),
                   Text("Dita Secret Number", style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              color: Colors.pink,
+              child: Column(
+                children: <Widget>[
+                  //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
+                  Image.asset(
+                    "assets/images/ning.jpg",
+                    height: 89.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Ningning Aespa", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              color: Colors.pink,
+              child: Column(
+                children: <Widget>[
+                  //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
+                  Image.asset(
+                    "assets/images/kari.jpg",
+                    height: 89.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Karina Aespa", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
