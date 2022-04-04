@@ -301,7 +301,7 @@ class Gallery extends StatelessWidget {
                   Image.asset(
                     "assets/images/bp.jpg",
                     height: 200.0,
-                    width: 800.0,
+                    width: 400.0,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 5.0),
