@@ -276,8 +276,8 @@ class Song extends StatelessWidget {
           return Card(
               child: ListTile(
             title: Text(song[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-            subtitle: Text('Music from ' + from[index]),
-            leading: Icon(Icons.audiotrack),
+            subtitle: Text('' + from[index]),
+            leading: Icon(Icons.play_arrow),
           ));
         },
         itemCount: song.length,
