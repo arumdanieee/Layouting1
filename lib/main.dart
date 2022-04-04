@@ -48,7 +48,7 @@ class MyHomePage extends StatelessWidget {
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: AssetImage('assets/images/fo.jpg'),
+                    image: AssetImage('assets/images/mu.webp'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -60,8 +60,8 @@ class MyHomePage extends StatelessWidget {
                     labelColor: Colors.black87,
                     unselectedLabelColor: Colors.grey,
                     tabs: [
-                      new Tab(icon: new Icon(Icons.restaurant), text: "Food"),
-                      new Tab(icon: new Icon(Icons.local_drink), text: "Drink"),
+                      new Tab(icon: new Icon(Icons.audiotrack), text: "Song"),
+                      new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
                       new Tab(icon: new Icon(Icons.info), text: "Info"),
                     ],
                   ),
@@ -239,18 +239,19 @@ class MyHomePage extends StatelessWidget {
 
 class Song extends StatelessWidget {
   final List song = [
-    "Here's Your Prefect.mp3",
-    "Doule Take.mp3",
-    "Love Is Gone.mp3",
-    "Roman Picisan.mp3",
-    "Pangeran Cinta.mp3",
-    "Satu Hati.mp3",
-    "Kangen.mp3",
-    "Elang.mp3",
-    "Pupus",
-    "Separuh Nafas.mp3",
-    "Aku Milikmu.mp3",
-    "Cukup Siti Nurbaya"
+    "DDU-DU DDU-DU",
+    "DYNAMITE",
+    "BOOMBAYAH",
+    "DALLA DALLA",
+    "BIRTHDAY",
+    "AFTER SCHOOL",
+    "NEXT LEVEL",
+    "BLACK MAMBA",
+    "NO ONE",
+    "ELEVEN",
+    "NOT SHY",
+    "BBOOM BBOOM"
+        "LOVESICK GIRL"
   ];
   @override
   Widget build(BuildContext context) {
@@ -271,66 +272,146 @@ class Song extends StatelessWidget {
 }
 
 class Gallery extends StatelessWidget {
-  final List gallery = [
-    "Here's Your Prefect.mp3",
-    "Doule Take.mp3",
-    "Love Is Gone.mp3",
-    "Roman Picisan.mp3",
-    "Pangeran Cinta.mp3",
-    "Satu Hati.mp3",
-    "Kangen.mp3",
-    "Elang.mp3",
-    "Pupus",
-    "Separuh Nafas.mp3",
-    "Aku Milikmu.mp3",
-    "Cukup Siti Nurbaya"
-  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
-        itemBuilder: (context, index) {
-          return Card(
-              child: ListTile(
-            title: Text(gallery[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-            subtitle: Text('Music from ' + gallery[index]),
-            leading: Icon(Icons.audiotrack),
-          ));
-        },
-        itemCount: gallery.length,
+      body: GridView.count(
+        crossAxisCount: 1,
+        children: <Widget>[
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/bp.jpg",
+                    height: 350.0,
+                    width: 350.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/it.jpg",
+                    height: 350.0,
+                    width: 350.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/sm.jpg",
+                    height: 350.0,
+                    width: 350.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/mm.jpg",
+                    height: 350.0,
+                    width: 350.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
 }
 
 class Info extends StatelessWidget {
-  final List info = [
-    "Here's Your Prefect.mp3",
-    "Doule Take.mp3",
-    "Love Is Gone.mp3",
-    "Roman Picisan.mp3",
-    "Pangeran Cinta.mp3",
-    "Satu Hati.mp3",
-    "Kangen.mp3",
-    "Elang.mp3",
-    "Pupus",
-    "Separuh Nafas.mp3",
-    "Aku Milikmu.mp3",
-    "Cukup Siti Nurbaya"
-  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
-        itemBuilder: (context, index) {
-          return Card(
-              child: ListTile(
-            title: Text(info[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-            subtitle: Text('Music from ' + info[index]),
-            leading: Icon(Icons.audiotrack),
-          ));
-        },
-        itemCount: info.length,
+      body: GridView.count(
+        crossAxisCount: 1,
+        children: <Widget>[
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/so.jpg",
+                    height: 350.0,
+                    width: 350.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/li.jpg",
+                    height: 350.0,
+                    width: 350.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/ji.webp",
+                    height: 350.0,
+                    width: 350.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/v.webp",
+                    height: 350.0,
+                    width: 350.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
