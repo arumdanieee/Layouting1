@@ -59,7 +59,7 @@ class MyHomePage extends StatelessWidget {
                     unselectedLabelColor: Colors.grey,
                     tabs: [
                       new Tab(icon: new Icon(Icons.restaurant), text: "Food"),
-                      new Tab(icon: new Icon(Icons.collections), text: "Drink"),
+                      new Tab(icon: new Icon(Icons.local_drink), text: "Drink"),
                       new Tab(icon: new Icon(Icons.info), text: "Info"),
                     ],
                   ),
@@ -72,6 +72,8 @@ class MyHomePage extends StatelessWidget {
               Center(
                 child: Image(
                   image: AssetImage('assets/images/bur.jpg'),
+                  width: 100,
+                  height: 100,
                   fit: BoxFit.cover,
                 ),
                 //Text(
