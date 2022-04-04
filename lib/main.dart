@@ -393,6 +393,7 @@ class Info extends StatelessWidget {
       body: GridView.count(
         crossAxisCount: 3,
         children: <Widget>[
+          Padding(padding: EdgeInsets.all(10.0)),
           Container(
             child: Card(
               elevation: 10.0,
@@ -497,7 +498,7 @@ class Info extends StatelessWidget {
           ),
           Container(
             child: Card(
-              margin: EdgeInsets.only(top: 10.0),
+              //margin: EdgeInsets.only(top: 10.0),
               elevation: 10.0,
               color: Colors.pink,
               child: Column(
@@ -508,7 +509,7 @@ class Info extends StatelessWidget {
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  //SizedBox(height: 2.0),
+                  SizedBox(height: 2.0),
                   Text("IU", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
