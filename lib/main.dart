@@ -405,6 +405,7 @@ class Info extends StatelessWidget {
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
+                  Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 5.0),
                   Text("Jisoo Blackpink", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
@@ -416,12 +417,14 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
+                  Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/li.jpg",
                     height: 100.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
+                  Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 5.0),
                   Text("Lisa Blackpink", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
@@ -433,12 +436,14 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
+                  Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/ji.webp",
                     height: 100.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
+                  Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 5.0),
                   Text("Jihan Weekly", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
@@ -450,12 +455,14 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
+                  Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/v.webp",
                     height: 100.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
+                  Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 5.0),
                   Text("V BTS", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
