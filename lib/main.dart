@@ -329,7 +329,37 @@ class Gallery extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Image.asset(
-                    "assets/images/b.jpg",
+                    "assets/images/ae.jpg",
+                    height: 100.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/ive.jpg",
+                    height: 100.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/we.jpg",
                     height: 100.0,
                     width: 100.0,
                     fit: BoxFit.cover,
@@ -403,6 +433,51 @@ class Info extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/v.webp",
+                    height: 100.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/sol.webp",
+                    height: 100.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/l.webp",
+                    height: 100.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              child: Column(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/iu.webp",
                     height: 100.0,
                     width: 100.0,
                     fit: BoxFit.cover,
