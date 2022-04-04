@@ -393,12 +393,12 @@ class Info extends StatelessWidget {
       body: GridView.count(
         crossAxisCount: 3,
         children: <Widget>[
-          Padding(padding: EdgeInsets.all(10.0)),
           Container(
             child: Card(
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
+                  Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/j.jpg",
                     height: 100.0,
