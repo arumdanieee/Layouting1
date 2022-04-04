@@ -42,13 +42,13 @@ class MyHomePage extends StatelessWidget {
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("Main Menu",
+                  title: Text("K-POP Song List",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: AssetImage('assets/images/mu.webp'),
+                    image: AssetImage('assets/images/k.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -61,7 +61,7 @@ class MyHomePage extends StatelessWidget {
                     unselectedLabelColor: Colors.grey,
                     tabs: [
                       new Tab(icon: new Icon(Icons.audiotrack), text: "Song"),
-                      new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
+                      new Tab(icon: new Icon(Icons.collections), text: "MV"),
                       new Tab(icon: new Icon(Icons.info), text: "Info"),
                     ],
                   ),
@@ -253,6 +253,21 @@ class Song extends StatelessWidget {
     "BBOOM BBOOM",
     "LOVESICK GIRL"
   ];
+  final List from = [
+    "Blackpink",
+    "BTS",
+    "Blackpink",
+    "Itzy",
+    "Somi",
+    "Weekly",
+    "Aespa",
+    "Aespa",
+    "Lee Hi",
+    "IVE",
+    "Itzy",
+    "Momoland",
+    "Blackpink"
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -261,7 +276,7 @@ class Song extends StatelessWidget {
           return Card(
               child: ListTile(
             title: Text(song[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-            subtitle: Text('Music from ' + song[index]),
+            subtitle: Text('Music from ' + from[index]),
             leading: Icon(Icons.audiotrack),
           ));
         },
