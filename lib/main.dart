@@ -61,7 +61,7 @@ class MyHomePage extends StatelessWidget {
                     unselectedLabelColor: Colors.grey,
                     tabs: [
                       new Tab(icon: new Icon(Icons.audiotrack), text: "Song"),
-                      new Tab(icon: new Icon(Icons.collections), text: "MV"),
+                      new Tab(icon: new Icon(Icons.movie), text: "MV"),
                       new Tab(icon: new Icon(Icons.info), text: "Info"),
                     ],
                   ),
