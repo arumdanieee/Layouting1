@@ -46,7 +46,7 @@ class MyHomePage extends StatelessWidget {
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: AssetImage('assets/images/flo.webp'),
+                    image: AssetImage('assets/images/food.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
