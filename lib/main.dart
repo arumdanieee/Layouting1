@@ -40,13 +40,13 @@ class MyHomePage extends StatelessWidget {
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("Belajar SLiverAppBar",
+                  title: Text("Main Menu",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: AssetImage('assets/images/food.jpg'),
+                    image: AssetImage('assets/images/fo.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
