@@ -120,6 +120,8 @@ class MyHomePage extends StatelessWidget {
                         color: Colors.blue,
                         child: Image(
                           image: AssetImage('assets/images/bur.jpg'),
+                          width: 50,
+                          height: 50,
                           fit: BoxFit.cover,
                         )),
                     Expanded(
@@ -131,7 +133,7 @@ class MyHomePage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Burger"),
-                            Text("This id beef burger"),
+                            Text("This is beef burger"),
                           ],
                         ),
                       ),
@@ -148,7 +150,12 @@ class MyHomePage extends StatelessWidget {
                       width: 100.0,
                       height: 100.0,
                       color: Colors.blue,
-                      child: new Icon(Icons.home),
+                      child: Image(
+                        image: AssetImage('assets/images/bur.jpg'),
+                        width: 50,
+                        height: 50,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     Expanded(
                       child: Container(
@@ -176,7 +183,12 @@ class MyHomePage extends StatelessWidget {
                       width: 100.0,
                       height: 100.0,
                       color: Colors.blue,
-                      child: new Icon(Icons.home),
+                      child: Image(
+                        image: AssetImage('assets/images/bur.jpg'),
+                        width: 50,
+                        height: 50,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     Expanded(
                       child: Container(
