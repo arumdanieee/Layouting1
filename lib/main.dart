@@ -74,66 +74,83 @@ class MyHomePage extends StatelessWidget {
               ),
             ];
           },
-          body: new Container(
-            child: TabBarView(
-              children: [
-                Container(
-                  padding: EdgeInsets.all(10),
-                  child: Row(
-                    children: [
-                      Container(
-                        width: 100.0,
-                        height: 100.0,
-                        color: Colors.blue,
-                        child: new Icon(Icons.home),
-                      ),
-                      Expanded(
-                        child: Container(
-                          padding: EdgeInsets.all(15.0),
-                          height: 100.0,
-                          color: Colors.black,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text("Contoh"),
-                              Text("Hai"),
-                            ],
-                          ),
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
+          body: //new Container(
+              //   child: TabBarView(
+              //     children: [
+              //       Container(
+              //         padding: EdgeInsets.all(10),
+              //         child: Row(
+              //           children: [
+              //             Container(
+              //               width: 100.0,
+              //               height: 100.0,
+              //               color: Colors.blue,
+              //               child: new Icon(Icons.home),
+              //             ),
+              //             Expanded(
+              //               child: Container(
+              //                 padding: EdgeInsets.all(15.0),
+              //                 height: 100.0,
+              //                 color: Colors.black,
+              //                 child: Column(
+              //                   crossAxisAlignment: CrossAxisAlignment.start,
+              //                   children: [
+              //                     Text("Contoh"),
+              //                     Text("Hai"),
+              //                   ],
+              //                 ),
+              //               ),
+              //             )
+              //           ],
+              //         ),
+              //       ),
+              //     ],
+              //   ),
+              // ),
 
-          // new TabBarView(
-          //   children: [
-          //     Center(
-          //       child: Image(
-          //         image: AssetImage('assets/images/bur.jpg'),
-          //         fit: BoxFit.cover,
-          //       ),
-          //       //Text(
-          //       //"Song",
-          //       //style: TextStyle(fontSize: 20),
-          //       //),
-          //     ),
-          //     Center(
-          //       child: Text(
-          //         "Gallery",
-          //         style: TextStyle(fontSize: 20),
-          //       ),
-          //     ),
-          //     Center(
-          //       child: Text(
-          //         "Info",
-          //         style: TextStyle(fontSize: 20),
-          //       ),
-          //     ),
-          //   ],
-          // ),
+              new TabBarView(
+            children: [
+              Container(
+                padding: EdgeInsets.all(10),
+                child: Row(
+                  children: [
+                    Container(
+                      width: 100.0,
+                      height: 100.0,
+                      color: Colors.blue,
+                      child: new Icon(Icons.home),
+                    ),
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.all(15.0),
+                        height: 100.0,
+                        color: Colors.black,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Contoh"),
+                            Text("Hai"),
+                          ],
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              // Center(
+              //   child: Text(
+              //     "Gallery",
+              //     style: TextStyle(fontSize: 20),
+              //   ),
+              // ),
+              // Center(
+              //   child: Text(
+              //     "Info",
+              //     style: TextStyle(fontSize: 20),
+              //   ),
+              // ),
+            ],
+          ),
         ),
       ),
       //appBar: AppBar(
