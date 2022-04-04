@@ -276,7 +276,7 @@ class Gallery extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView.count(
-        crossAxisCount: 3,
+        crossAxisCount: 1,
         children: <Widget>[
           Container(
             child: Card(
@@ -398,16 +398,16 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
-                  Padding(padding: EdgeInsets.all(10.0)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/j.jpg",
-                    height: 100.0,
+                    height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  Padding(padding: EdgeInsets.all(10.0)),
-                  SizedBox(height: 5.0),
-                  Text("Jisoo Blackpink", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Jisoo Blackpink", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -417,16 +417,16 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
-                  Padding(padding: EdgeInsets.all(10.0)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/li.jpg",
-                    height: 100.0,
+                    height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  Padding(padding: EdgeInsets.all(10.0)),
-                  SizedBox(height: 5.0),
-                  Text("Lisa Blackpink", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Lisa Blackpink", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -436,16 +436,16 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
-                  Padding(padding: EdgeInsets.all(10.0)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/ji.webp",
-                    height: 100.0,
+                    height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  Padding(padding: EdgeInsets.all(10.0)),
-                  SizedBox(height: 5.0),
-                  Text("Jihan Weekly", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Jihan Weekly", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -455,16 +455,16 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
-                  Padding(padding: EdgeInsets.all(10.0)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/v.webp",
-                    height: 100.0,
+                    height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  Padding(padding: EdgeInsets.all(10.0)),
-                  SizedBox(height: 5.0),
-                  Text("V BTS", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("V BTS", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -474,16 +474,16 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
-                  Padding(padding: EdgeInsets.all(10.0)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/sol.jpg",
-                    height: 100.0,
+                    height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  Padding(padding: EdgeInsets.all(10.0)),
-                  SizedBox(height: 5.0),
-                  Text("Solar Mamamoo", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Solar Mamamoo", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -493,16 +493,16 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
-                  Padding(padding: EdgeInsets.all(10.0)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/l.jpg",
-                    height: 100.0,
+                    height: 89.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  Padding(padding: EdgeInsets.all(10.0)),
-                  SizedBox(height: 5.0),
-                  Text("Liz IVE", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Liz IVE", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
