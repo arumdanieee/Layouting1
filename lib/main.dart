@@ -57,7 +57,7 @@ class MyHomePage extends StatelessWidget {
                 pinned: true,
                 delegate: _SliverAppBarDelegate(
                   TabBar(
-                    labelColor: Colors.black87,
+                    labelColor: Colors.pink,
                     unselectedLabelColor: Colors.grey,
                     tabs: [
                       new Tab(icon: new Icon(Icons.audiotrack), text: "Song"),
