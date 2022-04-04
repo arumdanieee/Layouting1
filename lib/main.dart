@@ -67,8 +67,27 @@ class MyHomePage extends StatelessWidget {
               ),
             ];
           },
-          body: Center(
-            child: Text("Flower"),
+          body: new TabBarView(
+            children: [
+              Center(
+                child: Text(
+                  "Song",
+                  style: TextStyle(fontSize: 20),
+                ),
+              ),
+              Center(
+                child: Text(
+                  "Gallery",
+                  style: TextStyle(fontSize: 20),
+                ),
+              ),
+              Center(
+                child: Text(
+                  "Info",
+                  style: TextStyle(fontSize: 20),
+                ),
+              ),
+            ],
           ),
         ),
       ),
