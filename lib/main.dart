@@ -474,12 +474,14 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
+                  Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/sol.jpg",
                     height: 100.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
+                  Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 5.0),
                   Text("Solar Mamamoo", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
@@ -491,12 +493,14 @@ class Info extends StatelessWidget {
               elevation: 10.0,
               child: Column(
                 children: <Widget>[
+                  Padding(padding: EdgeInsets.all(10.0)),
                   Image.asset(
                     "assets/images/l.jpg",
                     height: 100.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
+                  Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 5.0),
                   Text("Liz IVE", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
@@ -505,18 +509,19 @@ class Info extends StatelessWidget {
           ),
           Container(
             child: Card(
-              //margin: EdgeInsets.only(top: 10.0),
               elevation: 10.0,
               color: Colors.pink,
               child: Column(
                 children: <Widget>[
+                  Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
                   Image.asset(
                     "assets/images/iu.jpeg",
                     height: 100.0,
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 2.0),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
                   Text("IU", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
