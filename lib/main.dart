@@ -506,7 +506,7 @@ class Info extends StatelessWidget {
                     width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 5.0),
+                  SizedBox(height: 2.0),
                   Text("IU", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
