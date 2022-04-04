@@ -250,8 +250,8 @@ class Song extends StatelessWidget {
     "NO ONE",
     "ELEVEN",
     "NOT SHY",
-    "BBOOM BBOOM"
-        "LOVESICK GIRL"
+    "BBOOM BBOOM",
+    "LOVESICK GIRL"
   ];
   @override
   Widget build(BuildContext context) {
@@ -276,7 +276,7 @@ class Gallery extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView.count(
-        crossAxisCount: 1,
+        crossAxisCount: 3,
         children: <Widget>[
           Container(
             child: Card(
@@ -285,8 +285,8 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/bp.jpg",
-                    height: 350.0,
-                    width: 350.0,
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ],
@@ -300,8 +300,8 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/it.jpg",
-                    height: 350.0,
-                    width: 350.0,
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ],
@@ -315,8 +315,8 @@ class Gallery extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/sm.jpg",
-                    height: 350.0,
-                    width: 350.0,
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ],
@@ -329,9 +329,9 @@ class Gallery extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Image.asset(
-                    "assets/images/mm.jpg",
-                    height: 350.0,
-                    width: 350.0,
+                    "assets/images/b.jpg",
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ],
@@ -349,7 +349,7 @@ class Info extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView.count(
-        crossAxisCount: 1,
+        crossAxisCount: 3,
         children: <Widget>[
           Container(
             child: Card(
@@ -357,9 +357,9 @@ class Info extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Image.asset(
-                    "assets/images/so.jpg",
-                    height: 350.0,
-                    width: 350.0,
+                    "assets/images/j.jpg",
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ],
@@ -373,8 +373,8 @@ class Info extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/li.jpg",
-                    height: 350.0,
-                    width: 350.0,
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ],
@@ -388,8 +388,8 @@ class Info extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/ji.webp",
-                    height: 350.0,
-                    width: 350.0,
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ],
@@ -403,8 +403,8 @@ class Info extends StatelessWidget {
                 children: <Widget>[
                   Image.asset(
                     "assets/images/v.webp",
-                    height: 350.0,
-                    width: 350.0,
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
                 ],
