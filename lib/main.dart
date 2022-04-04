@@ -277,7 +277,7 @@ class Song extends StatelessWidget {
               child: ListTile(
             title: Text(song[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             subtitle: Text('' + from[index]),
-            leading: Icon(Icons.play_arrow),
+            leading: Icon(Icons.play_arrow, color: Colors.blue),
           ));
         },
         itemCount: song.length,
