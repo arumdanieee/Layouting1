@@ -137,6 +137,62 @@ class MyHomePage extends StatelessWidget {
                   ],
                 ),
               ),
+              //2
+              Container(
+                padding: EdgeInsets.all(10),
+                child: Row(
+                  children: [
+                    Container(
+                      width: 100.0,
+                      height: 100.0,
+                      color: Colors.blue,
+                      child: new Icon(Icons.home),
+                    ),
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.all(15.0),
+                        height: 100.0,
+                        color: Colors.black,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Contoh"),
+                            Text("Hai"),
+                          ],
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              //3
+              Container(
+                padding: EdgeInsets.all(10),
+                child: Row(
+                  children: [
+                    Container(
+                      width: 100.0,
+                      height: 100.0,
+                      color: Colors.blue,
+                      child: new Icon(Icons.home),
+                    ),
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.all(15.0),
+                        height: 100.0,
+                        color: Colors.black,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Contoh"),
+                            Text("Hai"),
+                          ],
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
               // Center(
               //   child: Text(
               //     "Gallery",
