@@ -7,16 +7,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // Application name
       debugShowCheckedModeBanner: false,
-      //title: 'Flutter Hello World',
+      // Application name
+      title: 'Flutter Hello World',
       // Application theme data, you can set the colors for the application as
       // you want
-      //theme: ThemeData(
-        //primarySwatch: Colors.blue,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
       // A widget which will be started on application startup
-      home: MyHomePage(),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
