@@ -513,7 +513,7 @@ class Info extends StatelessWidget {
               color: Colors.pink,
               child: Column(
                 children: <Widget>[
-                  Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
+                  //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
                   Image.asset(
                     "assets/images/iu.jpeg",
                     height: 100.0,
@@ -522,7 +522,7 @@ class Info extends StatelessWidget {
                   ),
                   //Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 1.0),
-                  Text("IU", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text("IU", style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
