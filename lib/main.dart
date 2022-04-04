@@ -75,7 +75,7 @@ class MyHomePage extends StatelessWidget {
             ];
           },
           body: new Container(
-            child: ListView(
+            child: TabBarView(
               children: [
                 Container(
                   padding: EdgeInsets.all(10),
