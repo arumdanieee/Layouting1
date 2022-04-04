@@ -280,7 +280,7 @@ class Gallery extends StatelessWidget {
         children: <Widget>[
           Container(
             child: Card(
-              elevation: 10.0,
+              //elevation: 10.0,
               child: Column(
                 children: <Widget>[
                   Image.asset(
@@ -396,6 +396,7 @@ class Info extends StatelessWidget {
           Container(
             child: Card(
               elevation: 10.0,
+              color: Colors.pink,
               child: Column(
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.all(10.0)),
@@ -415,6 +416,7 @@ class Info extends StatelessWidget {
           Container(
             child: Card(
               elevation: 10.0,
+              color: Colors.pink,
               child: Column(
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.all(10.0)),
@@ -434,6 +436,7 @@ class Info extends StatelessWidget {
           Container(
             child: Card(
               elevation: 10.0,
+              color: Colors.pink,
               child: Column(
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.all(10.0)),
@@ -453,6 +456,7 @@ class Info extends StatelessWidget {
           Container(
             child: Card(
               elevation: 10.0,
+              color: Colors.blue,
               child: Column(
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.all(10.0)),
@@ -472,6 +476,7 @@ class Info extends StatelessWidget {
           Container(
             child: Card(
               elevation: 10.0,
+              color: Colors.pink,
               child: Column(
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.all(10.0)),
@@ -483,7 +488,7 @@ class Info extends StatelessWidget {
                   ),
                   //Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 1.0),
-                  Text("Solar Mamamoo", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                  Text("Solar Mamamoo", style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -491,6 +496,7 @@ class Info extends StatelessWidget {
           Container(
             child: Card(
               elevation: 10.0,
+              color: Colors.pink,
               child: Column(
                 children: <Widget>[
                   //Padding(padding: EdgeInsets.all(10.0)),
@@ -523,6 +529,66 @@ class Info extends StatelessWidget {
                   //Padding(padding: EdgeInsets.all(10.0)),
                   SizedBox(height: 1.0),
                   Text("IU", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              color: Colors.pink,
+              child: Column(
+                children: <Widget>[
+                  //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
+                  Image.asset(
+                    "assets/images/iu.jpeg",
+                    height: 89.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Yeri Red Velvet", style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              color: Colors.pink,
+              child: Column(
+                children: <Widget>[
+                  //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
+                  Image.asset(
+                    "assets/images/iu.jpeg",
+                    height: 89.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Jennie Blackpink", style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            child: Card(
+              elevation: 10.0,
+              color: Colors.pink,
+              child: Column(
+                children: <Widget>[
+                  //Padding(padding: EdgeInsets.fromLTRB(10, 20, 10, 20)),
+                  Image.asset(
+                    "assets/images/iu.jpeg",
+                    height: 89.0,
+                    width: 100.0,
+                    fit: BoxFit.cover,
+                  ),
+                  //Padding(padding: EdgeInsets.all(10.0)),
+                  SizedBox(height: 1.0),
+                  Text("Dita Secret Number", style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
