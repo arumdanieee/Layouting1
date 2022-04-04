@@ -497,17 +497,18 @@ class Info extends StatelessWidget {
           ),
           Container(
             child: Card(
+              margin: EdgeInsets.only(top: 10.0),
               elevation: 10.0,
               color: Colors.pink,
               child: Column(
                 children: <Widget>[
                   Image.asset(
                     "assets/images/iu.jpeg",
-                    height: 200.0,
-                    width: 200.0,
+                    height: 100.0,
+                    width: 100.0,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 2.0),
+                  //SizedBox(height: 2.0),
                   Text("IU", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
