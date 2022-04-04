@@ -69,18 +69,21 @@ class MyHomePage extends StatelessWidget {
           },
           body: new TabBarView(
             children: [
-              Center(
-                child: Image(
-                  image: AssetImage('assets/images/bur.jpg'),
-                  width: 100,
-                  height: 100,
-                  fit: BoxFit.cover,
-                ),
-                //Text(
-                //"Song",
-                //style: TextStyle(fontSize: 20),
-                //),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Image(
+                    image: AssetImage('assets/images/bur.jpg'),
+                    width: 100,
+                    height: 100,
+                    fit: BoxFit.cover,
+                  ),
+                ],
               ),
+              //Text(
+              //"Song",
+              //style: TextStyle(fontSize: 20),
+              //),
               Center(
                 child: Text(
                   "Gallery",
