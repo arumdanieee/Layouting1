@@ -115,21 +115,23 @@ class MyHomePage extends StatelessWidget {
                 child: Row(
                   children: [
                     Container(
-                      width: 100.0,
-                      height: 100.0,
-                      color: Colors.blue,
-                      child: new Icon(Icons.home),
-                    ),
+                        width: 100.0,
+                        height: 100.0,
+                        color: Colors.blue,
+                        child: Image(
+                          image: AssetImage('assets/images/bur.jpg'),
+                          fit: BoxFit.cover,
+                        )),
                     Expanded(
                       child: Container(
                         padding: EdgeInsets.all(15.0),
                         height: 100.0,
-                        color: Colors.black,
+                        //color: Colors.black,
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Contoh"),
-                            Text("Hai"),
+                            Text("Burger"),
+                            Text("This id beef burger"),
                           ],
                         ),
                       ),
